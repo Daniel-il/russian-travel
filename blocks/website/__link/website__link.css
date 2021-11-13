@@ -1,0 +1,10 @@
+.website__link {
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  max-width: 456px;
+}
+.website__link:hover {
+  opacity: .8;
+}
