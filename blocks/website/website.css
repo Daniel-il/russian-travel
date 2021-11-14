@@ -1,0 +1,16 @@
+.website {
+  align-self: end;
+  max-width: 456px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .website {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website {
+    max-width: 288px;
+  }
+}

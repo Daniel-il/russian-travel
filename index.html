@@ -12,8 +12,8 @@
     <header class="header">
       <img src="./images/__logo.svg" alt="логотип" class="logo" />
       <div class="header__lang-links">
-        <a class="header__lang-link header__lang-link_active">Ru</a>
-        <a class="header__lang-link">En</a>
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link">En</a>
       </div>
     </header>
     <main class="main">
@@ -43,14 +43,26 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+          <li>
+            <span class="intro__span-accent"
+              >Объектов природного наследия ЮНЕСКО</span
+            >
+            12
+          </li>
+          <li>
+            <span class="intro__span-accent"
+              >Объектов культурного наследия ЮНЕСКО</span
+            >
+            16
+          </li>
+          <li>
+            <span class="intro__span-accent">Природных заповедников</span> 105
+          </li>
+          <li><span class="intro__span-accent">Аэропортов</span> 241</li>
         </ul>
       </section>
-      <div class="photo-grid">
+      <section class="photo-grid">
         <img
           src="./images/photo-grid-train.jpg"
           alt="поезд"
@@ -111,13 +123,13 @@
           alt="Ергаки"
           class="photo-grid__item"
         />
-      </div>
+      </section>
       <section class="cards">
         <ul class="places">
           <li class="place">
             <h3 class="place__title">Куршская коса</h3>
-            <div class="place__website">
-              <p class="website__url-heading">URL</p>
+            <div class="website">
+              <p class="website__url-heading">url</p>
               <a
                 href="http://park-kosa.ru"
                 class="website__link"
@@ -149,7 +161,7 @@
           </li>
           <li class="place">
             <h3 class="place__title">Кольский</h3>
-            <div class="place__website">
+            <div class="website">
               <p class="website__url-heading">URL</p>
               <a
                 href="
@@ -183,7 +195,7 @@
           </li>
           <li class="place">
             <h3 class="place__title">Алтай</h3>
-            <div class="place__website">
+            <div class="website">
               <p class="website__url-heading">URL</p>
               <a
                 href="
@@ -217,7 +229,7 @@
           </li>
           <li class="place">
             <h3 class="place__title">Зимний Байкал</h3>
-            <div class="place__website">
+            <div class="website">
               <p class="website__url-heading">URL</p>
               <a
                 href="
@@ -250,7 +262,7 @@
           </li>
           <li class="place">
             <h3 class="place__title">Карелия</h3>
-            <div class="place__website">
+            <div class="website">
               <p class="website__url-heading">URL</p>
               <a
                 href="
@@ -294,13 +306,14 @@
           </p>
         </a>
       </section>
-      <footer class="footer">
-        <nav>
+    </main>
+    <footer class="footer">
+      <nav>
         <ul class="footer__links">
           <li class="footer__item">
             <a
               href="
-            https://yandex.ru/maps"
+          https://yandex.ru/maps"
               class="footer__link"
               target="_blank"
               >Карты</a
@@ -309,7 +322,7 @@
           <li class="footer__item">
             <a
               href="
-            https://yandex.ru/pogoda"
+          https://yandex.ru/pogoda"
               class="footer__link"
               target="_blank"
               >Погода</a
@@ -318,7 +331,7 @@
           <li class="footer__item">
             <a
               href="
-            https://rasp.yandex.ru"
+          https://rasp.yandex.ru"
               class="footer__link"
               target="_blank"
               >Расписание</a
@@ -327,7 +340,7 @@
           <li class="footer__item">
             <a
               href="
-            https://calendar.yandex.ru"
+          https://calendar.yandex.ru"
               class="footer__link"
               target="_blank"
               >Календарь</a
@@ -336,7 +349,7 @@
           <li class="footer__item">
             <a
               href="
-            https://travel.yandex.ru"
+          https://travel.yandex.ru"
               class="footer__link"
               target="_blank"
               >Путешествия</a
@@ -344,8 +357,7 @@
           </li>
         </ul>
       </nav>
-        <p class="footer__copyright">&#169; 2021. Данила Ильин</p>
-      </footer>
-    </main>
+      <p class="footer__copyright">&#169; 2021. Данила Ильин</p>
+    </footer>
   </body>
 </html>

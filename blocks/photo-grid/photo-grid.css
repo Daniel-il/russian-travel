@@ -7,6 +7,8 @@
   gap: 16px;
   margin: 0 auto;
   object-fit: cover;
+  justify-content: center;
+  justify-items: center;
 }
 @media screen and (max-width: 1024px) {
   .photo-grid {
