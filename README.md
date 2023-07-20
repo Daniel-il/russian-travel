@@ -5,4 +5,4 @@
 ##### Технологии
 В проекте используется html и css.
 ##### Ссылка на проект: 
-[https://daniel-il.github.io/russian-travel/](https://travel-russia.surge.sh)https://travel-russia.surge.sh
+[Russian travel](https://travel-russia.surge.sh)
